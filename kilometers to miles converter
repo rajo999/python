@@ -1,0 +1,18 @@
+print("hello, what's up? :) This program converts kilometers into miles, so be free to use it.")
+
+while True:
+    km = (input("put the number of kilometers: "))
+    km= float(km.replace(",", "."))
+
+    miles = km * 0.6214
+    print(f"you get: {miles}")
+
+
+    cont= input("Do you want another conversion? y/n: ")
+    if cont != "y" and cont != "yes":
+        print("thank you for your time")
+        break
+
+
+
+
